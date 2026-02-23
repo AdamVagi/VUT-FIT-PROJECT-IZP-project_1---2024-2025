@@ -79,7 +79,6 @@ Příklad vstupu z výstupu jiného programu (tedy ani z klávesnice ani ze soub
 
     $ printf "Petr Dvorak\n603123456\n" | ./tnine 38 <seznam.txt
     pETr DVorak, 603123456
-7/10
 
 ### Priority funkcionality
 Vyhledání kontaktů, jejichž telefonní čísla začínají zadaným číslem.
