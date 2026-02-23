@@ -28,12 +28,14 @@ Pro zjednodušení budeme v tomto projektu uvažovat hledání '''nepřerušené
 ### Výstup programu
 Výstup programu může být dvojího druhu:
 
-- žádný kontakt nenalezen,
-- nalezen jeden a více kontaktů.
+- žádný kontakt nenalezen
+- nalezen jeden a více kontaktů
+
 *Kontakt nenalezen*
 *Not found*
 
-Pokud v telefonním seznamu neexistuje kontakt, u něhož by nějaká část odpovídala hledanému řetězci CISLO, vytiskne program toto hlášení.
+Pokud v telefonním seznamu neexistuje kontakt, u něhož by nějaká část odpovídala hledanému řetězci CISLO, vytiskne program toto hlášení
+
 *Kontakt(y) nalezen(y)*
 
 Každý kontakt, který odpovídá hledanému kritériu, program vytiskne na jeden řádek ve formátu "JMENO, TELCISLO", kde JMENO je jméno kontaktu z telefonního seznamu a TELCISLO je záznam o telefonním čísle. Program tiskne všechny kontakty, které kritériu odpovídají. Na pořadí řádků nezáleží. Stejně tak nezáleží ani na velikosti písmen.
