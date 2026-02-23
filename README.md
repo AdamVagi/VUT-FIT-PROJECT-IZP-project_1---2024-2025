@@ -59,6 +59,7 @@ Pomocný soubor seznam.txt telefonního seznamu:
     541141120
 
 Příklad hledání (pro demonstraci jsou nalezená písmena ve jméně jako velká):
+
     $ ./tnine <seznam.txt
     petr dvorak, 603123456
     jana novotna, 777987654
@@ -75,13 +76,15 @@ Příklad hledání (pro demonstraci jsou nalezená písmena ve jméně jako vel
     Not found
 
 Příklad vstupu z výstupu jiného programu (tedy ani z klávesnice ani ze souboru):
+
     $ printf "Petr Dvorak\n603123456\n" | ./tnine 38 <seznam.txt
     pETr DVorak, 603123456
-
-### Hodnocení
 7/10
 
 ### Priority funkcionality
 Vyhledání kontaktů, jejichž telefonní čísla začínají zadaným číslem.
 Vyhledání kontaktů, jejichž jména začínají znaky, které zadané číslo reprezentuje.
 (nepovinné, avšak může zlepšit hodnocení) Hledání přerušených posloupností znaků. Pokud jako první parametr programu bude -s, program najde i takové kontakty, u který mezi každými dvěma nalezenými znaky může být libovolná posloupnost jiných znaků. Důležité je, že nalezený řetězec (jména nebo telefonního čísla) musí obsahovat všechny znaky, které číslovky reprezentují, a ve stejném pořadí.
+
+### Hodnocení
+7/10
